@@ -1,8 +1,8 @@
-Objective: Undestand the basic
+STEP 2
+Objective: Understand basic webpack configuration using basic flags to modify generated code.
 
 ---------------------------------------
-STEP 2
-
+TODOs
 1 - Run "yarn add --dev webpack@2 webpack-dev-server@2".
 2 - Create the src/index.js and src/app.js entry files.
 3 - Create the webpack.config.js file and write basic config code.
@@ -10,7 +10,7 @@ STEP 2
 5 - Verify the dist folder with generated content.
 
 ---------------------------------------
-TODOs
+Tasks
 1 - Change basic config to test the single entry file, check generated code.
 2 - Change output flags: Remove path flag.
 3 - Use [name], [hash] and [chunkhash] file name substitutions to ensure a unique name.
