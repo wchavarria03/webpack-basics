@@ -1,0 +1,19 @@
+Objective: Undestand the basic
+
+---------------------------------------
+STEP 2
+
+1 - Run "yarn add --dev webpack@2 webpack-dev-server@2".
+2 - Create the src/index.js and src/app.js entry files.
+3 - Create the webpack.config.js file and write basic config code.
+4 - Run "webpack".
+5 - Verify the dist folder with generated content.
+
+---------------------------------------
+TODOs
+1 - Change basic config to test the single entry file, check generated code.
+2 - Change output flags: Remove path flag.
+3 - Use [name], [hash] and [chunkhash] file name substitutions to ensure a unique name.
+4 - Play with the entry points using and object instead of array.
+5 - Combine the steps 3 and 4 from this todo list.
+6 - Add the context flag and update entry points.
