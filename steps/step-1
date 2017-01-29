@@ -4,7 +4,7 @@
 ****************************************
 INSTALLING YARN
 
-1 - Download the installer
+1 - Run "npm install -g yarn" or Download the installer
 2 - Install yarn
 2 - Verify  "yarn --version"
 
