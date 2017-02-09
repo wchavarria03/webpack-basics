@@ -1,12 +1,19 @@
-STEP 2
-Objective: Understand basic webpack configuration using basic flags to modify generated code.
+STEP 1
+Objective: Installation and Understand basic webpack configuration using basic flags to modify generated code.
+
+INSTALLING YARN
+
+1 - Run "npm install -g yarn" or Download the installer
+2 - Install yarn
+4 - Verify  "yarn --version"
+5 - Run "yarn init"
 
 ---------------------------------------
 TODOs
-1 - Run "yarn add --dev webpack@2 webpack-dev-server@2".
-2 - Create the src/index.js and src/app.js entry files.
+1 - Add package webpack@2 and webpack-dev-server@2 into dev dependencies
+2 - Create two js files to use them as entry points
 3 - Create the webpack.config.js file and write basic config code.
-4 - Run "webpack".
+4 - Build our code using webpack
 5 - Verify the dist folder with generated content.
 
 ---------------------------------------
