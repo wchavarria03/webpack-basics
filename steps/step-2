@@ -2,18 +2,8 @@ STEP 2
 Objective: Add and use the loaders and plugins features modifying our build code using a simple math operation example.
 
 TODOs
-1 - Add package webpack@2 and webpack-dev-server@2 into dev dependencies
-2 - Create two js files to use them as entry points
-3 - Create the webpack.config.js file and write basic config code.
-4 - Build our code using webpack
-5 - Verify the dist folder with generated content.
-6 - Add NPM Scripts to build and run.
-
----------------------------------------
-Tasks
-1 - Change basic config to test the single entry file, check generated code.
-2 - Change output flags: Remove path flag.
-3 - Use [name], [hash] and [chunkhash] file name substitutions to ensure a unique name.
-4 - Play with the entry points using and object instead of array.
-5 - Combine the steps 3 and 4 from this todo list.
-6 - Add the context flag and update entry points.
+1 - Add new js files (app.js, add.js, multiply.js): App.js should import the add.js and multiply.js,
+    multiply.js should import and use the add.js file. App.js should print add operation result and multiply operation result.
+2 - Check the generated code.
+3 - Add index html file to use our bundled js file.
+4 - Basic HMR.
