@@ -5,8 +5,13 @@
   "repository": "https://github.com/wchavarria03/webpack-basics.git",
   "author": "Walter Chavarria <wchavarria03@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "start2": "webpack-dev-server --content-base dist/"
+  },
   "devDependencies": {
-    "webpack": "2",
-    "webpack-dev-server": "2"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
   }
 }

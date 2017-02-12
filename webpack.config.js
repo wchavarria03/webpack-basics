@@ -1,4 +1,4 @@
-  module.exports = {
+module.exports = {
 
   entry: './src/app.js',
   //1
@@ -21,6 +21,7 @@
     filename: 'bundle.js'
 
     //1
+    //path: __dirname + '/dist',
     //filename: '[name].bundle.js'
   }
 };

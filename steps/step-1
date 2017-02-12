@@ -15,6 +15,7 @@ TODOs
 3 - Create the webpack.config.js file and write basic config code.
 4 - Build our code using webpack
 5 - Verify the dist folder with generated content.
+6 - Add NPM Scripts to build and run.
 
 ---------------------------------------
 Tasks
