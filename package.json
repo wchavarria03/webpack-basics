@@ -7,8 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server",
-    "start2": "webpack-dev-server --content-base dist/"
+    "start": "webpack-dev-server --content-base dist/"
   },
   "devDependencies": {
     "webpack": "^2.2.1",
