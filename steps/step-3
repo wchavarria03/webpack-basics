@@ -3,3 +3,8 @@ Objective: Add and use plugins and loaders features to modify our build code usi
 
 TODOs
 1 - Add html-webpack-plugin.
+2 - Update webpack config to use the html-webpack-plugin.
+3 - Create a css file to import in our project.
+4 - Build and Run our project and check console logs.
+5 - Add css loader and style loader.
+6 - Update our webpack config to use new loaders.

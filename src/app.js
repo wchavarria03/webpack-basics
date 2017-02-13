@@ -1,5 +1,6 @@
 import addModule from './add';
 import multiplyModule from './multiply';
+import styles from './app.css';
 
 function add(num, num2) {
   return addModule(num, num2);
