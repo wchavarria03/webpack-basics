@@ -8,3 +8,4 @@ TODOs
 4 - Build and Run our project and check console logs.
 5 - Add css loader and style loader.
 6 - Update our webpack config to use new loaders.
+7 - Complete our js code.

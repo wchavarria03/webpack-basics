@@ -6,19 +6,15 @@
 </head>
 <body>
   <div id="calculator">
-    <!-- Screen and clear key -->
     <div class="top">
-      <span class="clear">C</span>
-      <div class="screen"></div>
+      <div id="mainScreen" class="screen main"></div>
+      <span id="clearKey"class="key clear">C</span>
     </div>
-
     <div class="keys">
-      <!-- operators and other keys -->
-      <div class="screen screen1"></div>
-      <div class="screen screen2"></div>
-      <span class="operator">+</span>
-      <span class="operator">x</span>
-      <span class="eval">=</span>
+      <input id="number1" type="text" class="screen input number1"/>
+      <input id="number2" type="text" class="screen input number2"/>
+      <span id="sumKey" class="key operator">+</span>
+      <span id="multiplyKey" class="key operator">x</span>
     </div>
   </div>
   <script src="./app.bundle.js"></script>
