@@ -10,10 +10,6 @@ module.exports = {
     filename: '[name].bundle.js'
   },
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   title: 'Webpack Basics'
-    // })
-    //1
     new HtmlWebpackPlugin({
       template: __dirname + '/src/index.html',
       title: 'Webpack Basics'
@@ -24,7 +20,11 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
+        // 2
+        // use: ['style-loader', 'css-loader?sourceMap']
       }
     ]
-  }
+  },
+  // 1
+  // devtool: "source-map"
 };
