@@ -10,10 +10,6 @@ module.exports = {
     filename: '[name].bundle.js'
   },
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   title: 'Webpack Basics'
-    // })
-    //1
     new HtmlWebpackPlugin({
       template: __dirname + '/src/index.html',
       title: 'Webpack Basics'

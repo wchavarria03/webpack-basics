@@ -1,0 +1,12 @@
+STEP 4
+Objective: Add and explore the generated code on chrome devtools using sourcemaps.
+
+TODOs
+1 - Using devtools find multiply or add js files.
+2 - Run the example and try to add/multiply empty data.
+3 - Look at console error.
+4 - Add devtools js sourcemap config.
+5 - Look at the console error again.
+6 - Look at css styles.
+7 - Add css sourcemaps loader config.
+8 - Look again to css sourcemaps.
