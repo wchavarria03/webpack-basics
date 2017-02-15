@@ -1,0 +1,11 @@
+STEP 5
+Objective: Complete the following exercises.
+
+Tasks
+1 - Change CSS files to SCSS files using sass-loader with sourcemaps.
+2 - Minify CSS code.
+3 - Minify and uglify JS code.
+4 - Add ES6 and migrate all the current JS, use babel-loader.
+5 - Add angular using yarn.
+6 - Import angular into the entry js file.
+7 - Create angular code.
