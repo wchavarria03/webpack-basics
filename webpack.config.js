@@ -1,9 +1,10 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var UglifyJsPlugin = require('uglify-js-plugin');
+
 module.exports = {
   context: __dirname + '/src',
   entry: {
-    app: './app.js'
+    app: './app.module.js'
   },
   output: {
     path: __dirname + '/dist',
@@ -29,6 +30,10 @@ module.exports = {
         test: /\.s?css$/,
         use: ['style-loader', 'css-loader?sourceMap', 'sass-loader']
         //use: ['style-loader', 'css-loader?sourceMap?minimize', 'sass-loader']
+      },
+      {
+        test: /\.html$/,
+        loader: 'raw-loader'
       }
     ]
   },

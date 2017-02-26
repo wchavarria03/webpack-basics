@@ -1,0 +1,12 @@
+<div id="calculator">
+  <div class="top">
+    <div id="mainScreen" class="screen main">{{calculator.mainScreen}}</div>
+    <span id="clearKey" ng-click="calculator.clear()" class="key clear">C</span>
+  </div>
+  <div class="keys">
+    <input id="number1" ng-model="calculator.number1" type="text" class="screen input number1"/>
+    <input id="number2" ng-model="calculator.number2" type="text" class="screen input number2"/>
+    <span id="sumKey" ng-click="calculator.add(calculator.number1, calculator.number2)" class="key operator">+</span>
+    <span id="multiplyKey" ng-click="calculator.multiply(calculator.number1, calculator.number2)" class="key operator">x</span>
+  </div>
+</div>
