@@ -19,12 +19,9 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-        // 2
-        // use: ['style-loader', 'css-loader?sourceMap']
+        use: ['style-loader', 'css-loader?sourceMap']
       }
     ]
   },
-  // 1
-  // devtool: "source-map"
+  devtool: "source-map"
 };
