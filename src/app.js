@@ -1,6 +1,6 @@
 import addModule from './add';
 import multiplyModule from './multiply';
-import styles from './app.css';
+import styles from './app.scss';
 
 function add(num, num2) {
   return addModule(num, num2);
@@ -11,22 +11,22 @@ function multiply(num, num2) {
 }
 
 /*LISTENERS*/
-var multiplyKey = document.getElementById('multiplyKey');
+let multiplyKey = document.getElementById('multiplyKey');
 multiplyKey.addEventListener('click', function () {
-  var num1 = getNumber1();
-  var num2 = getNumber2();
+  let num1 = getNumber1();
+  let num2 = getNumber2();
   setResult(multiply(num1, num2));
 });
 
 
-var sumKey = document.getElementById('sumKey');
+let sumKey = document.getElementById('sumKey');
 sumKey.addEventListener('click', function () {
-  var num1 = getNumber1();
-  var num2 = getNumber2();
+  let num1 = getNumber1();
+  let num2 = getNumber2();
   setResult(add(num1, num2));
 });
 
-var clearKey = document.getElementById('clearKey');
+let clearKey = document.getElementById('clearKey');
 clearKey.addEventListener('click', function () {
   setResult('');
 });
@@ -41,6 +41,6 @@ function getNumber2() {
 }
 
 function setResult(result) {
-  var resultScreen = document.getElementById('mainScreen');
+  let resultScreen = document.getElementById('mainScreen');
   resultScreen.innerText = result;
 }
